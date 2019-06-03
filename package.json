@@ -1,42 +1,35 @@
 {
-  "name": "adopt-me",
+  "name": "JavaScript Algorithms",
   "version": "1.0.0",
-  "description": "An app to teach you to write React",
+  "description": "A repository for practicing Algorithms and Data Structures in JavaScript",
   "main": "src/index.html",
   "scripts": {
     "format": "prettier --write \"AdoptMe/src/**/*.{js,jsx}\"",
     "lint": "eslint \"AdoptMe/src/**/*.{js,jsx}\" --quiet",
     "dev": "parcel src/index.html"
   },
-  "jest": {
-    "transformIgnorePatterns": [
-      "/node_modules/(?!petfinder-client).+"
-    ]
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adelgado0723/IntroToReact.git"
+    "url": "git+https://github.com/adelgado0723/JavaScriptAlgorithms.git"
   },
   "keywords": [
-    "React",
+    "Algorithms",
+    "Data Structures",
     "JavaScript"
   ],
   "author": "Andy Delgado",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/adelgado0723/IntroToReact/issues"
+    "url": "https://github.com/adelgado0723/JavaScriptAlgorithms/issues"
   },
-  "homepage": "https://github.com/adelgado0723/IntroToReact#readme",
+  "homepage": "https://github.com/adelgado0723/JavaScriptAlgorithms#readme",
   "devDependencies": {
     "eslint": "^5.3.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-import": "^2.17.3",
     "eslint-plugin-jsx-a11y": "^6.2.1",
-
     "parcel-bundler": "^1.11.0",
     "prettier": "^1.14.2"
   },
-  "dependencies": {
-    
-  }
+  "dependencies": {}
 }
